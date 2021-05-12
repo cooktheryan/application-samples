@@ -13,6 +13,8 @@ spec:
         env:
         - name: DESTINATION
           value: mongo-pvc 
+        - name: SIZE
+          value: 8Gi
         - name: PVC_NAME
           value: mongo-storage
         volumeMounts:
