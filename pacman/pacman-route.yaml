@@ -1,11 +1,13 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: pacman
-  labels:
-    app.kubernetes.io/name: pacman
+  name: pacman 
 spec:
-  path: "/"
+  host: pacman.octo.eng.rdu2.redhat.com
+  port:
+    targetPort: 8080
   to:
     kind: Service
-    name: pacman
+    name: pacman 
+    weight: 100
+  wildcardPolicy: None
