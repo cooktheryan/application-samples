@@ -6,7 +6,7 @@ metadata:
 subjects:
 - kind: ServiceAccount 
   name: pacman
-  namespace: pacman
+  namespace: pacman-sample
 roleRef:
   kind: ClusterRole
   name: pacman 
