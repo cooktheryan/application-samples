@@ -1,8 +1,12 @@
 resources:
-- mongo-pvc.yaml
 - mongo-deployment.yaml
 - mongo-service.yaml
 - pacman-deployment.yaml
 - pacman-service.yaml
 - pacman-route.yaml
 - namespace.yaml
+- configmap.yaml
+- job.yaml
+- snapshot-serviceaccount.yaml
+- snapshot-to-pvc.yaml
+- snapshot-binding.yaml
