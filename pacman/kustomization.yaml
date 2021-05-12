@@ -5,3 +5,6 @@ resources:
 - pacman-deployment.yaml
 - pacman-service.yaml
 - pacman-route.yaml
+- pacman-service-account.yaml
+- pacman-cluster-role-binding.yaml
+- pacman-cluster-role.yaml
